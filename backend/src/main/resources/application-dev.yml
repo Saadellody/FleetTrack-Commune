@@ -4,11 +4,3 @@ spring:
     username: devuser
     password: devpass
     driver-class-name: org.postgresql.Driver
-
-  jpa:
-    hibernate:
-      ddl-auto: validate
-    open-in-view: false
-
-  flyway:
-    enabled: true
